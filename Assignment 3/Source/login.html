@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="google-signin-scope" content="profile email">
+    <meta name="google-signin-client_id" content="126317825521-g241kphdelnskn2b6u0tftrm0r15s773.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<script>
+    function validations()
+    { if(localStorage) {
+        form = document.forms["loguser"];
+        var yname= form["dsername"].value;
+        var name = localStorage.getItem("xname");
+        var x    = localStorage.getItem("pname");
+        var y    = form["password"].value;
+
+        if (yname == name && x==y) {
+            return true;
+        } else{
+            alert("check login details");
+            return false;
+        }
+    }
+    }
+</script>
+<style>
+    div.center{
+                      position: absolute;
+                      left: 0;
+                      top: 50%;
+                      width: 100%;
+                      text-align: center;
+                      font-size: 18px;
+                  }</style>
+<h1 class="register-title">login</h1>
+<form class="register" method="post" action="home.html" name="loguser" onsubmit="return validations()">
+
+    <input input type="text" name="dsername" class="register-input" placeholder="Username">
+    <input input type="password" name="password" class="register-input" placeholder="Password">
+    <input type="submit" value="Login" class="register-button">
+</form>
+
+<div class="about">
+    <p class="about-links">
+        <a href="http://www.cssflow.com/snippets/registration-form" target="_parent">View Article</a>
+        <a href="http://www.cssflow.com/snippets/registration-form.zip" target="_parent">Download</a>
+    </p>
+    <p class="about-author">
+        &copy; 2013 <a href="http://thibaut.me" target="_blank">Thibaut Courouble</a> -
+        <a href="http://www.cssflow.com/mit-license" target="_blank">MIT License</a><br>
+        Original PSD by <a href="http://dribbble.com/shots/1115108-Register-UI-Free-PSD-included" target="_blank">Ionut Zamfir</a>
+    </p>
+</div>
+<body background="40761_03-03_01_0.jpg">
+
+<div class="center"><div align="center"
+
+        class="g-signin2"
+        data-onsuccess="onSignIn"
+        data-scope="https://www.googleapis.com/auth/plus.login"
+        data-accesstype="offline"
+        data-redirecturi="http://localhost:63342/ASEg/mashup.html">
+</div></div>
+</body>
+</html>
