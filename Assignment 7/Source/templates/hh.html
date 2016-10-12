@@ -1,0 +1,22 @@
+<ion-view view-title="Login" name="login-view" class="padding" style="background: url(../img/spacew.jpg); background-size: cover ">
+  <ion-content class="background" scroll="false">
+    <br>
+    <br>
+
+    <button class="button button-block button-positive" ng-click="toggle()">Get Location</button>
+    <div class="item item-text-wrap">
+      Latitude :<span ng-bind="lat"></span>
+    </div>
+    <div class="item item-text-wrap">
+      Longitude :<span ng-bind="long"></span>
+    </div>
+
+
+    <div></div>
+    <a class="button button-block button-positive" href="#/distance">Map ISS to Location Diatance</a>
+    <a class="button button-block button-positive" href="#/mashup"> go to mashup</a>
+
+  </ion-content>
+
+
+</ion-view>

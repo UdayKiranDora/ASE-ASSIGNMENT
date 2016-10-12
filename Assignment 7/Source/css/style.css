@@ -1,0 +1,20 @@
+/* Empty. Add your own CSS if you like */
+/*ion-page.login {
+  background: url(../img/iss.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 80%;
+  height: 246px;
+  margin: auto;
+  z-index: 2;
+  position: relative;
+}*/
+.background.scroll-content {
+    background: url('../img/spacew.jpg') no-repeat;
+    background-size: cover;
+}
+.backgroun.scroll-content {
+  background: url('../img/spacer.jpg') no-repeat;
+  background-size: cover;
+}
