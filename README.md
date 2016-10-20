@@ -14,4 +14,6 @@ Assignment 5 Wiki - https://github.com/UdayKiranDora/ASE-ASSIGNMENT/wiki/Assignm
 
 Assignment 6 Wiki - https://github.com/UdayKiranDora/ASE-ASSIGNMENT/wiki/Assignment-6-Android-II
 
-Assignment 7 wiki - https://github.com/UdayKiranDora/ASE-ASSIGNMENT/wiki/Assignment-7-Ionic-II
+Assignment 7 Wiki - https://github.com/UdayKiranDora/ASE-ASSIGNMENT/wiki/Assignment-7-Ionic-II
+
+Assignment 8 Wiki - https://github.com/UdayKiranDora/ASE-ASSIGNMENT/wiki/Assignment-8-REST_Services
