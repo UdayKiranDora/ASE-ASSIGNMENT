@@ -18,4 +18,8 @@ Assignment 7 Wiki - https://github.com/UdayKiranDora/ASE-ASSIGNMENT/wiki/Assignm
 
 Assignment 8 Wiki - https://github.com/UdayKiranDora/ASE-ASSIGNMENT/wiki/Assignment-8-REST_Services
 
-Assignment 8 Wiki - https://github.com/UdayKiranDora/ASE-ASSIGNMENT/wiki/Assignment-9-Node-Express-Framework
+Assignment 9 Wiki - https://github.com/UdayKiranDora/ASE-ASSIGNMENT/wiki/Assignment-9-Node-Express-Framework
+
+Assignment 10 Wiki - https://github.com/UdayKiranDora/ASE-ASSIGNMENT/wiki/Amazon-10-MongoDB-Rest-and-Amazon-Web-Services
+
+
